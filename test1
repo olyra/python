@@ -1,0 +1,8 @@
+#file name is test1
+# what is the current working directory?
+cwd = Path.cwd()
+print('\nCurrent working directory:\n' + str(cwd))
+
+# Create full path name by joining path and filename
+new_file = Path.joinpath(cwd, 'new_file.txt')
+print('\nFull path:\n' + str(new_file))
